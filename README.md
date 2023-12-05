@@ -32,6 +32,6 @@ streamlit run main.py <api-key>
 
 4. **Start Quiz**: Click on start quiz to generate the questions.
 
-5. **Answer the questions**: Every question have four choices, and one correct answer.
+5. **Answer the questions**: Every question has four choices, and one correct answer.
 
 6. **Submit Answers**: Once you answered all of the questions, click on submit  Answers to get the result.
