@@ -30,7 +30,7 @@ def quiz_app(apikey):
 
         # Display questions and collect answers from the user
         user_answers = {}
-        for (q, (c, a)), i in zip(st.session_state["questions"].items(), range(0, num_questions)):
+        for q, (c, a) in st.session_state["questions"].items():
             st.markdown(f"**{q}**")
             user_answers[q] = st.radio("Select your answer:", c, key=q)
             st.markdown("---")
