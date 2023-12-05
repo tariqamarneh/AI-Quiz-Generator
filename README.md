@@ -18,7 +18,7 @@ cd AI-Quiz-Generato
 ```
 pip install -r requirements.txt
 ```
-4. Run the website locally using the following command (replace <api-key> with you openAI API_key:
+4. Run the website locally using the following command (replace <api-key> with you openAI API_key):
 ```
 streamlit run main.py <api-key>
 ```
