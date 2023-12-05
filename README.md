@@ -8,19 +8,30 @@ To use the quiz generator, simply input the topic and desired number of question
 Follow the steps below to set up and run the project on your local machine:
 1. Clone the repository to your local machine using the following command:
 ```
-git clone https://github.com/tariqamarneh/jumaa-osama-gp2.git
+git clone https://github.com/tariqamarneh/AI-Quiz-Generato.git
 ```
 2. Navigate to the project directory:
 ```
-cd jumaa-osama-gp2/final_website
+cd AI-Quiz-Generato
 ```
 3. Install the required dependencies by running the following commands:
 ```
 pip install -r requirements.txt
-python -m textblob.download_corpora
 ```
-4. Run the website locally using the following command:
+4. Run the website locally using the following command (replace <api-key> with you openAI API_key:
 ```
-python final_website/main.py
+streamlit run main.py <api-key>
 ```
-5. Open a web browser and visit http://localhost:5000 to access the Twitterize Jordanian People website.
+
+## Usage
+1. **Open the Website**: using streamlit run main.py <api-key>.
+
+2. **Choose the topic**: Enter the topic name that you want to get a quiz about.
+
+3. **specify number of questions**: Enter the number of questions.
+
+4. **Start Quiz**: Click on start quiz to generate the questions.
+
+5. **Answer the questions**: Every question have four choices, and one correct answer.
+
+6. **Submit Answers**: Once you answered all of the questions, click on submit  Answers to get the result.
